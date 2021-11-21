@@ -43,6 +43,7 @@ kangaroo = createSprite(50,200,20,50);
   kangaroo.addAnimation("running", kangaroo_running);
   kangaroo.addAnimation("collided", kangaroo_collided);
   kangaroo.scale = 0.15;
+  kangaroo.setCollider("circle",0,0,300)
 //Create a sprite for Invisible ground and place it at the bottom side of the screen.
   
 invisibleGround = createSprite(400,350,1600,10);
